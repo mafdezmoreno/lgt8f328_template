@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${userHome}/Library/Arduino15/packages/lgt8fx/hardware/avr/2.0.7/cores/lgt8f/",
+                "${userHome}/Library/Arduino15/packages/arduino/tools/avr-gcc/7.3.0-atmel3.6.1-arduino7/avr/include/",
+                "${userHome}/Library/Arduino15/packages/lgt8fx/hardware/avr/2.0.7/variants/standard/"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64",
+            "defines": ["USBCON"]  // To be able to find 'Serial'
+        }
+    ],
+    "version": 4
+}

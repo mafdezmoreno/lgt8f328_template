@@ -1,0 +1,13 @@
+// Here doesn't work. It has to be moved to user keybindings
+[
+    { // Personalized for python_make_compilation tasks
+        "key": "cmd+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "compile"
+    },
+    {
+        "key": "cmd+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "all"
+    }
+]
